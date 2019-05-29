@@ -1,0 +1,12 @@
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: $gutter-horizontal;
+
+    .col-1-of-2 {}
+
+
+
+}

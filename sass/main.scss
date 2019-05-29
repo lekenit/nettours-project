@@ -1,0 +1,26 @@
+//imports
+
+//abstract folder
+@import "abstract/variables";
+@import "abstract/mixins";
+@import "abstract/functions";
+//base folder
+@import "base/base";
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities";
+
+//pages folder
+@import "pages/home";
+
+//components folder
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+
+//layout folder
+@import "layout/grid";
+
+@import "layout/header"
+//variables 
