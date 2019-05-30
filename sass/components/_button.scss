@@ -1,5 +1,6 @@
 /*BUTTON*/
 .btn {
+    position: relative;
 
     &:link,
     &:visited {
@@ -16,6 +17,16 @@
     &--white {
         background-color: $color-white;
         color: $color-grey-dark;
+
+        &::after {
+            color: $color-white;
+        }
+    }
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        
+    
 
         &::after {
             color: $color-white;
@@ -90,8 +101,5 @@
     }
 }
 
-.btn-green {
-    background-color: $color-primary-dark;
-    color: $color-white;
-}
+
 
